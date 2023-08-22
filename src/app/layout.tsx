@@ -1,3 +1,5 @@
+// "use client";
+
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
@@ -24,17 +26,17 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html suppressHydrationWarning lang="en">
       <NavigationMenu>
         <NavigationMenuList>
           <NavigationMenuItem>
             <NavigationMenuTrigger>Item One</NavigationMenuTrigger>
             <NavigationMenuContent>
-              <NavigationMenuLink>Link</NavigationMenuLink>
+              <NavigationMenuLink className={navigationMenuTriggerStyle()}>Link</NavigationMenuLink>
             </NavigationMenuContent>
           </NavigationMenuItem>
         </NavigationMenuList>
-    </NavigationMenu>
+      </NavigationMenu>
       <body className={inter.className}>{children}</body>
     </html>
   )
