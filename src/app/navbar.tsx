@@ -15,10 +15,10 @@ export const Navbar = () => {
       <NavigationMenu>
         <NavigationMenuList>
           <NavigationMenuItem>
-            <NavigationMenuTrigger>Item One</NavigationMenuTrigger>
-            <NavigationMenuContent>
-              <NavigationMenuLink className={navigationMenuTriggerStyle()}>Link</NavigationMenuLink>
-            </NavigationMenuContent>
+            <NavigationMenuTrigger>Item One</NavigationMenuTrigger>            
+          </NavigationMenuItem>
+          <NavigationMenuItem>
+            <NavigationMenuTrigger>Item Two</NavigationMenuTrigger>
           </NavigationMenuItem>
         </NavigationMenuList>
       </NavigationMenu>
