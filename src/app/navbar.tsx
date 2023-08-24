@@ -8,7 +8,7 @@ import {
   NavigationMenuList,
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
-} from "../components/navbar"
+} from "@/components/layout/navbar"
 
 export const Navbar = () => {
   return (

@@ -12,7 +12,7 @@ import {
   NavigationMenuList,
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
-} from "../components/navbar"
+} from "@/components/layout/navbar"
 
 const components: { title: string; href: string; description: string }[] = [
   {
