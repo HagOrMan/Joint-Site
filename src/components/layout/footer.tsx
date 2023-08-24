@@ -1,3 +1,5 @@
+import { baoze_footer_socials, kyle_footer_socials } from "@/constants/nav-footer-lists/footer-lists"
+
 // sitemap (links to pages)
 // Socials
 // contact info
@@ -9,7 +11,15 @@ export default function Footer(){
                 hola amiga
             </div>
             <div className="align-middle text-center w-1/3" id="footer-socials">
-                second man
+                {baoze_footer_socials.map(({name, link, icon}, index) => (
+                    <div key={`baoze-social-${index}`} className="pb-4">
+                        Name: {name} <br/>
+                        Link: {link} <br/>
+                        Icon: {icon} 
+                    </div>
+                ))
+                }
+                kyle&apos;s socials here
             </div>
             <div className="align-middle text-center w-1/3" id="footer-contact-info">
                 third man
