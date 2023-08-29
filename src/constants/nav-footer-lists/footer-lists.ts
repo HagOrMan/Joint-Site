@@ -9,12 +9,12 @@ export const footer_links = {
 export const baoze_footer_socials: FooterSocial[] = [
     {   
         "name": "github",
-        "link": "github/baogeist",
+        "link": "https://github.com/BaoGeist",
         "icon": "icon/temp",
     },
     {   
         "name": "linkedin",
-        "link": "linkedin/bungeist",
+        "link": "https://www.linkedin.com/in/baoze-lin/",
         "icon": "icon/temp"
     },
 ];
